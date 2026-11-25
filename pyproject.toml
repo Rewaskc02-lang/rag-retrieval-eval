@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-retrieval-eval"
+version = "0.1.0"
+description = "Evaluate saved RAG rankings and run a local BM25 baseline."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/henrivalle/rag-retrieval-eval"
+Issues = "https://github.com/henrivalle/rag-retrieval-eval/issues"
+
+[project.scripts]
+rag-retrieval-eval = "rag_retrieval_eval:main"
+
+[tool.setuptools]
+py-modules = ["rag_retrieval_eval"]

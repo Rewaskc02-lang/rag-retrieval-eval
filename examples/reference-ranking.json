@@ -1,0 +1,4 @@
+{
+  "q-grafos": ["calendario", "aula-grafos"],
+  "q-testes": ["aula-grafos", "calendario"]
+}
